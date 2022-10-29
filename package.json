@@ -4,8 +4,15 @@
   "description": "A game engine for webgl made using pixi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^6.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
